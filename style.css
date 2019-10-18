@@ -3,7 +3,7 @@ p#first {
     text-align:center;
     font-size: 26px;
 }
-div#orangeBox {
+div.orangeBox {
     width: 400px;
     height: 250px;
     border: 5px orange;
