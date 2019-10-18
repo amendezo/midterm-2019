@@ -9,7 +9,7 @@ div#orangeBox {
     border: 5px solid orange;
     padding: 10px;
     margin-top: 20px;
-    float: center;
+    vertical-align: center;
 }
 div#login {
     float: left;
