@@ -7,11 +7,12 @@ div {
     width:400px;
     height:250px;
     border: solid orange;
-    
+    padding: 10px;
+    margin-top: 20px;
+    align-content: center;
 }
 .center {
-    margin: auto;
     padding: 10px;
-    
+    float: left;
     
 }
