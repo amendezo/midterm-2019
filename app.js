@@ -3,18 +3,18 @@ function validateForm() {
     var Password = document.forms["myForm"]["Password"].value;
     var confPassword = document.forms["myForm"]["confPassword"].value;
     
-    if (username == "") {
-        document.getElementById("msg").innerHTML='Please username not empty<br>';
-        return false;
-    }
-    if (Password == "") {
-        document.getElementById("msg").innerHTML='Please Password not empty<br>';
-        return false;
-    }
-    if (confPassword == "") {
-        document.getElementById("msg").innerHTML='Please Confirm Password not empty<br>';
-        return false;
-    }
+    //if (username == "") {
+    //    document.getElementById("msg").innerHTML='Please username not empty<br>';
+    //    return false;
+    //}
+    //if (Password == "") {
+    //    document.getElementById("msg").innerHTML='Please Password not empty<br>';
+    //    return false;
+    //}
+    //if (confPassword == "") {
+    //    document.getElementById("msg").innerHTML='Please Confirm Password not empty<br>';
+    //    return false;
+    //}
     if (username.length <=8 || username.length >= 4 ) {
         document.getElementById("msg").innerHTML='The length of user name and password must be between 4 and 8';
         return false;
