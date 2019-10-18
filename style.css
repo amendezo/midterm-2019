@@ -1,4 +1,4 @@
-p.first {
+p#first {
     color: blue;
     text-align:center;
     text-size-adjust: 30px;
