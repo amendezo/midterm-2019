@@ -1,4 +1,4 @@
-p{
+p {
     font-size: 26px;
     color: blue;
     text-align: center;
@@ -12,6 +12,6 @@ div {
 .center {
     margin: auto;
     padding: 10px;
-    float: left;
+    
     
 }
