@@ -28,11 +28,11 @@ function validateForm() {
         return false;
     }
     if(confPassword.localeCompare(Password)==0) {
-        document.getElementById("msg").innerHTML="";
+    //    document.getElementById("msg").innerHTML="";
         document.getElementById("msg1").innerHTML='The input values are correct';
         return false;}
         else{
-            document.getElementById("msg").innerHTML='The passwords are different';
+    //        document.getElementById("msg").innerHTML='The passwords are different';
             return false;
         }
     }
