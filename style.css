@@ -13,6 +13,6 @@ div {
 }
 .center {
     padding: 10px;
-    float: left;
+   margin: auto;
     
 }
