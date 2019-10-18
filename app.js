@@ -34,6 +34,6 @@ function validateForm() {
     }
         else{
             document.getElementById("msg").innerHTML='The passwords are different';
-
+            return false;
         }
     }
