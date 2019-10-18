@@ -9,10 +9,9 @@ div#orangeBox {
     border: 5px solid orange;
     padding: 10px;
     margin-top: 20px;
-    position: absolute;
-    left:20%;
-    top:20%;
-    transform: translate(-20%,-20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div#login {
     float: left;
