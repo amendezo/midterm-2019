@@ -15,15 +15,15 @@ function validateForm() {
     //    document.getElementById("msg").innerHTML='Please Confirm Password not empty<br>';
     //    return false;
     //}
-    if (username.length <=8 || username.length >= 4 ) {
+    if (username.length > 8 || username.length < 4 ) {
         document.getElementById("msg").innerHTML='The length of user name and password must be between 4 and 8';
         return false;
     }
-    if (Password.length <=8 || Password.length >= 4 ) {
+    if (Password.length > 8 || Password.length < 4 ) {
         document.getElementById("msg").innerHTML='The length of user name and password must be between 4 and 8';
         return false;
     }
-    if (confPassword.length <=8 || confPassword.length >= 4 ) {
+    if (confPassword.length > 8 || confPassword.length < 4 ) {
         document.getElementById("msg").innerHTML='The length of user name and password must be between 4 and 8';
         return false;
     }
