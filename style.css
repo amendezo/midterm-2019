@@ -1,6 +1,7 @@
 p{
     font-size: 26px;
     color: blue;
+    text-align: center;
 }
 div {
     width:400px;
@@ -11,5 +12,6 @@ div {
 .center {
     margin: auto;
     padding: 10px;
+    float: left;
     
 }
