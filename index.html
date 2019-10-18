@@ -5,22 +5,26 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <p class="center" >User Login</p>
-        <div class="center">
+
 <form name="myForm" onsubmit="return validateForm()">
-        UserName<input type="text" name="Username" maxlength=12>
-        <br><br>
-        Password<input type="password" name="Password" maxlength=12>
-        <br><br>
-        Confirmation <input type="password" name="confPassword" maxlength=12>
-        <br><br>
-        <button type="button">Submit</button>
-        <colspan=2><span id="msg" style="color:red"></span>
-        <colspan=2><span id="msg1" style="color:green"></sp>
-             
+<p class="center">User Login</p>
+<div class="center">
 
+<table>
+    <tr>
+        <td>UserName </td>
+        <td><input type="text" name="Username" maxlength=12></td>
+        <tr>
+            <td>Password</td>
+            <td> <input type="password" name="Password" maxlength=12></td>
+            <tr>
+                <td>Confirmation </td>
+                <td><input type="password" name="confPassword" maxlength=12></td>
+                <tr><td colspan=2><input type="submit" value="Submit"></td></tr>
+                <tr><td colspan=2><span id="msg" style="color:red"></span></td></tr>
+                <tr><td colspan=2><span id="msg1" style="color:green"></span></td></tr>
 
-
+</table>
 </div>
 </form>
 </body>
